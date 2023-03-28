@@ -2,14 +2,14 @@ provider "aws" {
   region            = var.region
 }
 
-terraform {
-  backend "s3" {
-    encrypt        = true
-    bucket         = "riva-devops-terraform-state"
-    key            = "tfstate-s3-bucket"
-    region         = "us-east-1"
-  }
-}
+# terraform {
+#   backend "s3" {
+#     encrypt        = true
+#     bucket         = "riva-devops-terraform-state"
+#     key            = "tfstate-s3-bucket"
+#     region         = "us-east-1"
+#   }
+# }
 
 
 resource "aws_vpc" "nm" {
