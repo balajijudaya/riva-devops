@@ -23,7 +23,7 @@
     "command": [
       "sh",
       "-c",
-      "echo '<html><body><h1>Hello, World v2!</h1></body></html>' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
+      "echo '<html><body><h1>Hello, World v3!</h1></body></html>' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"
     ]
   }
 ]
