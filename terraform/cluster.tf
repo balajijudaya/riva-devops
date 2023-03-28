@@ -19,7 +19,7 @@ EOF
 }
 
 resource "aws_iam_instance_profile" "ecsInstanceProfile" {
-  name = "tf-ecsInstanceProfile1"
+  name = "tf-ecsInstanceProfile2"
   role = "${aws_iam_role.ecsInstanceRole.name}"
 }
 
